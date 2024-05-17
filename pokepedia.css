@@ -1,0 +1,77 @@
+body{
+    background: url("./pokemon.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+#content-box {
+    width: 31.25rem;
+    height: 31.25rem;
+    border: 0.625rem solid lightgray;
+    border-radius: 0.625rem;
+
+    background-image: url("./bck3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+
+    margin: 0 auto;
+    margin-top: 3.75rem;
+}
+
+#pokemon-info {
+    width: 15.625rem;
+    height: 31.25rem;
+    text-align: center;
+}
+
+#pokemon-name-list {
+    width: 15.625rem;
+    height: 31.25rem;
+    font-size: 1.125rem;
+    overflow-y: auto;
+}
+
+.pokemon-name {
+    cursor: pointer;
+    display: flex;
+    border: 0.063rem solid black;
+    border-radius: 0.625rem;
+    background-color: white;
+    margin: 0.313rem;
+    padding: 8px;
+}
+
+#pokemon-info img{
+    background-image: url("./img_bck_2.jpg");
+    background-position: center;
+    background-size: cover;
+    width:10rem;
+    height: 10rem;
+    border: 0.063rem solid black;
+    border-radius: 0.625rem;
+    margin-top: 3.125rem;
+    margin-bottom: 1.25rem;
+}
+
+#pokemon-properties {
+    margin-top: 0.625rem;
+}
+
+#height, #weight, #pokemon-description {
+    background-color: #ffd622;
+    padding: 0.313rem;
+    margin: 0.625rem;
+    border: 0.125rem solid white;
+    border-radius: 0.625rem;
+}
+
+#header {
+    height: 3.75rem;
+    font-size: 2.813rem;
+    color: #4f4f4f;
+    background-color: #ffd622;
+    margin-top: 0;
+    text-align: center;
+}
